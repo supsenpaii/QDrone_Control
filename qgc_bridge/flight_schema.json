@@ -1,0 +1,304 @@
+{
+  "schema": 2,
+  "tcp_port": 18920,
+  "byte_order": "little",
+  "packet_doubles": 59,
+  "rate_hz": 50,
+  "fields": [
+    {
+      "index_zero_based": 0,
+      "name": "magic",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 1,
+      "name": "schema",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 2,
+      "name": "seq",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 3,
+      "name": "target_s",
+      "units": "s"
+    },
+    {
+      "index_zero_based": 4,
+      "name": "battery_v",
+      "units": "V"
+    },
+    {
+      "index_zero_based": 5,
+      "name": "low_batt",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 6,
+      "name": "sens_fail",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 7,
+      "name": "comm_loss",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 8,
+      "name": "arm",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 9,
+      "name": "mode",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 10,
+      "name": "stop_cmd",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 11,
+      "name": "thrust_N",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 12,
+      "name": "cmd_roll",
+      "units": "rad (Quanser FLU reference)"
+    },
+    {
+      "index_zero_based": 13,
+      "name": "cmd_pitch",
+      "units": "rad (Quanser FLU reference)"
+    },
+    {
+      "index_zero_based": 14,
+      "name": "cmd_yawrat",
+      "units": "rad/s (Quanser FLU)"
+    },
+    {
+      "index_zero_based": 15,
+      "name": "roll",
+      "units": "rad (Quanser FLU reference)"
+    },
+    {
+      "index_zero_based": 16,
+      "name": "pitch",
+      "units": "rad (Quanser FLU reference)"
+    },
+    {
+      "index_zero_based": 17,
+      "name": "yaw",
+      "units": "rad (Quanser FLU reference)"
+    },
+    {
+      "index_zero_based": 18,
+      "name": "rate_x",
+      "units": "rad/s (Quanser FLU)"
+    },
+    {
+      "index_zero_based": 19,
+      "name": "rate_y",
+      "units": "rad/s (Quanser FLU)"
+    },
+    {
+      "index_zero_based": 20,
+      "name": "rate_z",
+      "units": "rad/s (Quanser FLU)"
+    },
+    {
+      "index_zero_based": 21,
+      "name": "angacc_x",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 22,
+      "name": "angacc_y",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 23,
+      "name": "angacc_z",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 24,
+      "name": "gyro_x",
+      "units": "rad/s (Quanser FLU)"
+    },
+    {
+      "index_zero_based": 25,
+      "name": "gyro_y",
+      "units": "rad/s (Quanser FLU)"
+    },
+    {
+      "index_zero_based": 26,
+      "name": "gyro_z",
+      "units": "rad/s (Quanser FLU)"
+    },
+    {
+      "index_zero_based": 27,
+      "name": "accel_x",
+      "units": "m/s^2 (Quanser FLU)"
+    },
+    {
+      "index_zero_based": 28,
+      "name": "accel_y",
+      "units": "m/s^2 (Quanser FLU)"
+    },
+    {
+      "index_zero_based": 29,
+      "name": "accel_z",
+      "units": "m/s^2 (Quanser FLU)"
+    },
+    {
+      "index_zero_based": 30,
+      "name": "motor0",
+      "units": "normalized 0..1 after plant arm multiplier, command only"
+    },
+    {
+      "index_zero_based": 31,
+      "name": "motor1",
+      "units": "normalized 0..1 after plant arm multiplier, command only"
+    },
+    {
+      "index_zero_based": 32,
+      "name": "motor2",
+      "units": "normalized 0..1 after plant arm multiplier, command only"
+    },
+    {
+      "index_zero_based": 33,
+      "name": "motor3",
+      "units": "normalized 0..1 after plant arm multiplier, command only"
+    },
+    {
+      "index_zero_based": 34,
+      "name": "duty0",
+      "units": "raw HIL Write PWM unit configured in source model"
+    },
+    {
+      "index_zero_based": 35,
+      "name": "duty1",
+      "units": "raw HIL Write PWM unit configured in source model"
+    },
+    {
+      "index_zero_based": 36,
+      "name": "duty2",
+      "units": "raw HIL Write PWM unit configured in source model"
+    },
+    {
+      "index_zero_based": 37,
+      "name": "duty3",
+      "units": "raw HIL Write PWM unit configured in source model"
+    },
+    {
+      "index_zero_based": 38,
+      "name": "force_N",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 39,
+      "name": "torque_x",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 40,
+      "name": "torque_y",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 41,
+      "name": "torque_z",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 42,
+      "name": "lim_trq_x",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 43,
+      "name": "lim_trq_y",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 44,
+      "name": "lim_trq_z",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 45,
+      "name": "cmd_rate_x",
+      "units": "rad/s (Quanser FLU)"
+    },
+    {
+      "index_zero_based": 46,
+      "name": "cmd_rate_y",
+      "units": "rad/s (Quanser FLU)"
+    },
+    {
+      "index_zero_based": 47,
+      "name": "cmd_rate_z",
+      "units": "rad/s (Quanser FLU)"
+    },
+    {
+      "index_zero_based": 48,
+      "name": "ext_trq_x",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 49,
+      "name": "ext_trq_y",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 50,
+      "name": "ext_trq_z",
+      "units": "model native"
+    },
+    {
+      "index_zero_based": 51,
+      "name": "in_roll",
+      "units": "rad (Quanser FLU reference)"
+    },
+    {
+      "index_zero_based": 52,
+      "name": "in_pitch",
+      "units": "rad (Quanser FLU reference)"
+    },
+    {
+      "index_zero_based": 53,
+      "name": "in_yawrate",
+      "units": "rad/s (Quanser FLU)"
+    },
+    {
+      "index_zero_based": 54,
+      "name": "mag_x_T",
+      "units": "T (unavailable in base Stabilizer)"
+    },
+    {
+      "index_zero_based": 55,
+      "name": "mag_y_T",
+      "units": "T (unavailable in base Stabilizer)"
+    },
+    {
+      "index_zero_based": 56,
+      "name": "mag_z_T",
+      "units": "T (unavailable in base Stabilizer)"
+    },
+    {
+      "index_zero_based": 57,
+      "name": "press_Pa",
+      "units": "Pa (unavailable in base Stabilizer)"
+    },
+    {
+      "index_zero_based": 58,
+      "name": "temp_C",
+      "units": "degC (unavailable in base Stabilizer)"
+    }
+  ]
+}

@@ -1,0 +1,899 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 172,
+      "sha256": "2c769ff2db9b4522dec407065ea570dc1a238728131a2d8411a9903da01f7897"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 633,
+      "sha256": "b2caaa56409da9c278e9b7225667280e606407ca11fa78c2c98f4b34566a6686"
+    },
+    {
+      "path": "build_mex.m",
+      "bytes": 948,
+      "sha256": "8fe484c51ee7e68ab4df4d272fa17ef68b9ff6cebe2375f67352cda54fa7e029"
+    },
+    {
+      "path": "capture_tool/build_capture_from_read_imu.m",
+      "bytes": 4858,
+      "sha256": "de8f0376ef2cafe7b367d36605b96623702e4cfb8617bf788850e8856678f8e7"
+    },
+    {
+      "path": "capture_tool/build_qdrone_capture.m",
+      "bytes": 10280,
+      "sha256": "2eda6ff29edcd1de85e860285ae47c703191bb339b354b4733f75e68154c17d9"
+    },
+    {
+      "path": "capture_tool/build_reduced_capture.m",
+      "bytes": 483,
+      "sha256": "33203ba55e26d1012c61ce4efa384a2e35fbd94eebe49140be19a4dd15f61bdc"
+    },
+    {
+      "path": "capture_tool/capture_schema.json",
+      "bytes": 461,
+      "sha256": "0fcfb4ee68160e0a83e60c3a8c5afcf10a84fb5c2c2ce23e32d006728fe8d0d7"
+    },
+    {
+      "path": "capture_tool/diagnose_capture_connection.m",
+      "bytes": 665,
+      "sha256": "37a702852106a8563e073c8e529d8d5c4e3688d63f7bf6624b2da39c264c9653"
+    },
+    {
+      "path": "capture_tool/diagnose_codegen.m",
+      "bytes": 651,
+      "sha256": "eccc46b4b10ad0bd00911ceebf270bbc5c9a0c6f466f3084f002d8dfc26b7460"
+    },
+    {
+      "path": "capture_tool/diagnose_model.m",
+      "bytes": 365,
+      "sha256": "0491eedf69f60592ca29404951e08976d0202b3c2ae73d512fa844f93a4a60a9"
+    },
+    {
+      "path": "capture_tool/diagnose_runtime.ps1",
+      "bytes": 5175,
+      "sha256": "8304798202a72574974e7f5a729b062c3368a15af6471e50bb2836911904c74c"
+    },
+    {
+      "path": "capture_tool/DO_CAO.md",
+      "bytes": 3097,
+      "sha256": "d0d1bc02a075e12a094dbf7c427001b2156ba491b425d8d903b74a0b6b102b22"
+    },
+    {
+      "path": "capture_tool/HUONG_DAN.md",
+      "bytes": 6614,
+      "sha256": "9daad84f994e43de1d12473288dc24d017ccdfbf40b9bf4f371cb00166dfb533"
+    },
+    {
+      "path": "capture_tool/install_baro_height.m",
+      "bytes": 4687,
+      "sha256": "4c064498605afa52a6119d239b23139a512e5f000d0511898cb1efe601e5ae82"
+    },
+    {
+      "path": "capture_tool/KIEM_CHUNG_DO_CAO.md",
+      "bytes": 1600,
+      "sha256": "2d39fa04cc1e9f8e353be021df16df268cd7ee5052dbc8e50c058b046a7f2613"
+    },
+    {
+      "path": "capture_tool/mark_height_truth.m",
+      "bytes": 1639,
+      "sha256": "788622a8a41253e734ff31ef073754f6cf1800215d6c319149a37760cdd00e46"
+    },
+    {
+      "path": "capture_tool/open_capture_tool.m",
+      "bytes": 656,
+      "sha256": "e84528ec79ff87a5c2c025b76a6161300e31d80517247bac3a628b5143d0b287"
+    },
+    {
+      "path": "capture_tool/qdrone_baro_height.m",
+      "bytes": 2742,
+      "sha256": "38760146269d82d5a56a05f58c9e9f6be1e084e997e00194d7b7a0915a246f60"
+    },
+    {
+      "path": "capture_tool/qdrone_capture_flow.m",
+      "bytes": 243,
+      "sha256": "9188963c7df1dca5fe381528dc43fbcdb6d661dff66d056341c4eca2690fe44a"
+    },
+    {
+      "path": "capture_tool/qdrone_capture_frame.m",
+      "bytes": 703,
+      "sha256": "b67589550e9995986e1aa46357850f9489fd3a32be6e8310a8eee27b8eda813b"
+    },
+    {
+      "path": "capture_tool/qdrone_capture_packet.m",
+      "bytes": 445,
+      "sha256": "30af256debb1dc4aaa0b2694f42be871f39fcd43e228384ca8c976fafe9cead4"
+    },
+    {
+      "path": "capture_tool/qdrone_capture_report.m",
+      "bytes": 2042,
+      "sha256": "b06825ef046ca9e1502e308362e0ba6207c435583d2145a57c90131854144ecc"
+    },
+    {
+      "path": "capture_tool/qdrone_parse_frames.m",
+      "bytes": 1062,
+      "sha256": "5087332476b0681df6913254a107f9354ba0fdde5f8485c292d6ab184701dffd"
+    },
+    {
+      "path": "capture_tool/qdrone_parse_telemetry.m",
+      "bytes": 353,
+      "sha256": "0c6841b30b0ccb69867c85b26196d28e7edee42f22c73d2009b0d437b4fa5482"
+    },
+    {
+      "path": "capture_tool/QDrone_RuntimeProbe.c",
+      "bytes": 1413,
+      "sha256": "6cbf45435a79cbf557287545d8af2b5115b4f1328ca2fc62c76328718e79afcd"
+    },
+    {
+      "path": "capture_tool/QDroneCapture.m",
+      "bytes": 16069,
+      "sha256": "545180eafd9bf99a4199796221353d32229cc52fe80e9daa78aaf2ce9bbf541a"
+    },
+    {
+      "path": "capture_tool/QDroneHeightObserver.m",
+      "bytes": 8823,
+      "sha256": "59d1c2058a1c0a6fb0b6f56b4dd335eb3fc36ade9f3b50f12a6ef1fcdedfa98c"
+    },
+    {
+      "path": "capture_tool/read_qdrone_frame.m",
+      "bytes": 720,
+      "sha256": "65de0f7c20459852fb6e9e092cb7e4e8cc384cae318ab924803bc882118c1d57"
+    },
+    {
+      "path": "capture_tool/read_target_diagnostics.ps1",
+      "bytes": 1953,
+      "sha256": "5bc915603786fb496daef518267efd6cb92f0641ad88b9a8501a1e7636588aa7"
+    },
+    {
+      "path": "capture_tool/run_runtime_helper.ps1",
+      "bytes": 5149,
+      "sha256": "96436eba6ddde0b55e91f4bd05d6893e6931f35d9219bdd193af9dd33172545e"
+    },
+    {
+      "path": "capture_tool/RuntimeProbe.mk",
+      "bytes": 245,
+      "sha256": "aecb2f2fa54c805cadc3d549c229a41cdf045f77e0eb42162ab3cf4e4ab554e9"
+    },
+    {
+      "path": "capture_tool/setup_capture_calibration_inputs.m",
+      "bytes": 865,
+      "sha256": "3c4e324bb6c3c2a36b7c3fd76709345f719b762817f78a7855d82414d7e24423"
+    },
+    {
+      "path": "capture_tool/start_height_observer.m",
+      "bytes": 1672,
+      "sha256": "c119dc97b5899ca75a4b401d9d2ef74a39f0d7a3f06be6024675d68c9f2d3d43"
+    },
+    {
+      "path": "capture_tool/start_qdrone_capture.m",
+      "bytes": 537,
+      "sha256": "212333b18668a074d80f01c0c1597c3656d28589261209efa62471658b94635b"
+    },
+    {
+      "path": "capture_tool/test_baro_height.m",
+      "bytes": 1890,
+      "sha256": "33d327e807776888615b1279017cb0a6de621fe536c3afc0f75075636e9755d6"
+    },
+    {
+      "path": "capture_tool/test_height_observer.m",
+      "bytes": 1688,
+      "sha256": "1851e2d841b83506ac4d3747227af009f5cb4ac0d5580b35aba982db342b27f1"
+    },
+    {
+      "path": "capture_tool/test_qdrone_capture.m",
+      "bytes": 3044,
+      "sha256": "e922d682d8a467edac0847d5be8600f66c3b07c9092daa34811e3f1493fb5cad"
+    },
+    {
+      "path": "capture_tool/validate_baro_height.m",
+      "bytes": 332,
+      "sha256": "fe200b2899cdd4360216eb0bee83818bb2d31435591cac649b77b298100de215"
+    },
+    {
+      "path": "capture_tool/validate_capture_tool.m",
+      "bytes": 3279,
+      "sha256": "732df19e00612502a3652bbb4a95f9d4d6c1859a51c75c860ba15f594ba0be4e"
+    },
+    {
+      "path": "capture_tool/validate_height_20s.m",
+      "bytes": 896,
+      "sha256": "a8ef01090360922ea1fd240c878b15d3d39222a148a5011a55323b2977f58430"
+    },
+    {
+      "path": "Mission_Server_QDrone_Manual_Flight_FrSky.mdl",
+      "bytes": 298824,
+      "sha256": "17e85c4d3cecde795cbccfdacf9b99e07df2cf20e75da72a90ce8a66b7efc22c"
+    },
+    {
+      "path": "Mission_Server_QDrone_Manual_Flight_FrSky_FA.mdl",
+      "bytes": 323569,
+      "sha256": "dcee2606a8ec82c5725f0655da1a6ef07912423f8def646d4f1876e65ca3f3ae"
+    },
+    {
+      "path": "optical_flow/audit_optical_flow.m",
+      "bytes": 1771,
+      "sha256": "6cf85a965b604551e0c3a35ec8bc7b34e074ec6fc45e22fa3820b9a69ead88ae"
+    },
+    {
+      "path": "optical_flow/build_fa_native.cmd",
+      "bytes": 1000,
+      "sha256": "d30841e2a61921ad48fa614b9549d8ad9fbd15ee7f2a9dd930dc50a6c567e066"
+    },
+    {
+      "path": "optical_flow/build_sb_native.cmd",
+      "bytes": 612,
+      "sha256": "33760c65432b32bd44e0def47a79741b208cf969184bae2600c96e6676f4bfdc"
+    },
+    {
+      "path": "optical_flow/calibrate_fa_camera.m",
+      "bytes": 1829,
+      "sha256": "5f7d7e527843c40e4e06b03d7a6197b50727f88c94e90d1612f244df1e3c922e"
+    },
+    {
+      "path": "optical_flow/checkerboard_9x7.png",
+      "bytes": 27570,
+      "sha256": "2d954489ec467d9e642828dba06e939228c8d9ec7110f64f75e12a66e5752f40"
+    },
+    {
+      "path": "optical_flow/checkerboard_9x7_20mm_A4.svg",
+      "bytes": 2133,
+      "sha256": "bbb45300f70d0f2495f5bd35676edaf1c4f7fd23dfa354647908a82cbfb135ab"
+    },
+    {
+      "path": "optical_flow/configure_fa_flight.m",
+      "bytes": 4774,
+      "sha256": "047493e77b1a714447eed291d7f3ddbe7bd6f52fbf1e8e110790e2586fe0406e"
+    },
+    {
+      "path": "optical_flow/configure_flow_assist_switch.m",
+      "bytes": 3445,
+      "sha256": "fbd7d052c0c0abbeea4302cf05db8d8022ba4c4bf206d2534466f70ec27a6d6c"
+    },
+    {
+      "path": "optical_flow/estimate_fa_pattern_scale.m",
+      "bytes": 2804,
+      "sha256": "fdd15ad8dbba21f98b0390f6b6be9e7acb22742ce299bf588e91546340ba9f52"
+    },
+    {
+      "path": "optical_flow/FA_DEPLOYMENT_PIPELINE_VI.md",
+      "bytes": 25178,
+      "sha256": "c31dbb294fea43ea96a178237439160f383afc4373709803fced94e251e07751"
+    },
+    {
+      "path": "optical_flow/FA_FLIGHT_SETUP_VI.md",
+      "bytes": 7745,
+      "sha256": "5b6c44377b8ac34f20f1a7d8af695cb9f2ec8bded2296e018ef1f58488f68786"
+    },
+    {
+      "path": "optical_flow/finish_optical_flow.m",
+      "bytes": 5942,
+      "sha256": "06d754614138afe5022eefdeaa051747d2866aa0147bbc509bb6f2ed02d9e825"
+    },
+    {
+      "path": "optical_flow/fix_fa_frame_freshness.m",
+      "bytes": 2902,
+      "sha256": "fde249174a1f6112bb52f20d7869e971e933580ffa37a13b56ecf6de555aa74b"
+    },
+    {
+      "path": "optical_flow/fix_sb_idle_link.m",
+      "bytes": 4169,
+      "sha256": "cb978a56d354a3c383c62a418737a59f751e86195d782949f65ed3e9d64de163"
+    },
+    {
+      "path": "optical_flow/flow_assist_config.m",
+      "bytes": 487,
+      "sha256": "6202ef12683447cc8b96be2316fbddfdca69b74b71aa3ac3cdba15dbba0ec559"
+    },
+    {
+      "path": "optical_flow/FLOW_ASSIST_VI.md",
+      "bytes": 14733,
+      "sha256": "ef1ad6b6148363536bc1f0d8caa7e275abf2fa6032ae50ea6ee2dcb61b0873d0"
+    },
+    {
+      "path": "optical_flow/qdrone_fa_core.c",
+      "bytes": 9014,
+      "sha256": "7c3ffb4c36aacb0fa6d6c68bac11d8161033a1c45e275108a544723d191ede20"
+    },
+    {
+      "path": "optical_flow/qdrone_fa_core.h",
+      "bytes": 1302,
+      "sha256": "fb660b45808449615d551fff75a0e05767c571959f6d2a9548c225d952a023d9"
+    },
+    {
+      "path": "optical_flow/qdrone_fa_mex.c",
+      "bytes": 1601,
+      "sha256": "db753d2800f15ea537e53177bfbb80ca94f1f449dab71470daffe70d4436d3c5"
+    },
+    {
+      "path": "optical_flow/qdrone_fa_step.m",
+      "bytes": 612,
+      "sha256": "f9c378d77d2122cdcf9a9efcc96051ffc1c6d4df2c7e3db8b29e2599e9bd54b9"
+    },
+    {
+      "path": "optical_flow/qdrone_of_overlay.m",
+      "bytes": 1626,
+      "sha256": "eea9073553e5f8c28ccad195dcdf8564939a0a3d3e9adfe5d1af8ef71a0ab3ba"
+    },
+    {
+      "path": "optical_flow/qdrone_of_step.m",
+      "bytes": 3588,
+      "sha256": "740ed465e47605c8c64d23c0372158bea0120e94b2fb6f41653405078cdb78ef"
+    },
+    {
+      "path": "optical_flow/qdrone_sb_mode_core.c",
+      "bytes": 1407,
+      "sha256": "8eccdf275c87c8fd10b491dcdc0272da292d389948c9634c009fcbd1ac704f82"
+    },
+    {
+      "path": "optical_flow/qdrone_sb_mode_core.h",
+      "bytes": 334,
+      "sha256": "a4707efd7d1436ebb33b2340eb892a48fc1a9f543b3f32507aa08ddc74c20adc"
+    },
+    {
+      "path": "optical_flow/qdrone_sb_mode_mex.c",
+      "bytes": 823,
+      "sha256": "e20fa99bc807a0a7b581d18e33317e1581f12cad319b210ab5f7f0e176cd4144"
+    },
+    {
+      "path": "optical_flow/qdrone_sb_mode_step.m",
+      "bytes": 438,
+      "sha256": "d58f9e02fb624eeb8f141d99f1ffac8ec0c320e06374e8660810f881026bf744"
+    },
+    {
+      "path": "optical_flow/QDroneFlowAssistBuildable.m",
+      "bytes": 973,
+      "sha256": "2c06201066ace1d1fd44e648223d2438cb8f5f68937167d8b053f1893f8cfa77"
+    },
+    {
+      "path": "optical_flow/QDroneSBModeBuildable.m",
+      "bytes": 791,
+      "sha256": "a83459d4a64b31f51c43d6d4876e3b1adf777b6f748c241d54b06cb9c164172e"
+    },
+    {
+      "path": "optical_flow/README_VI.txt",
+      "bytes": 2539,
+      "sha256": "a462c3ffc9bf903bc87bc1d870afc2dfdab8686c0fa0566683373112e0ed5129"
+    },
+    {
+      "path": "optical_flow/save_fa_calibration_image.m",
+      "bytes": 1790,
+      "sha256": "a7572dd47a9146ada926decc1314eda01835fbe677d4db28f0dd588a1a43584c"
+    },
+    {
+      "path": "optical_flow/save_fa_pattern_image.m",
+      "bytes": 1380,
+      "sha256": "4bf429e67cf3cb71e354cf3a10c8f116c788780692ef6203911ff10c4f3c2fa6"
+    },
+    {
+      "path": "optical_flow/setup_fa_bounded_trial.m",
+      "bytes": 2603,
+      "sha256": "cc07cb1f1c7b83a743aa18dcd978bbb85a87c02cf497a4a759a7a1fa131d69f0"
+    },
+    {
+      "path": "optical_flow/setup_fa_codegen_diagnostics.m",
+      "bytes": 1364,
+      "sha256": "cc350bcd06843791dd10b0dca90f5ce8a26a5f75b448a9cc73916fd7f1065efd"
+    },
+    {
+      "path": "optical_flow/setup_fa_hil_timing.m",
+      "bytes": 6203,
+      "sha256": "65c416978068487c21a6c80fb3dc9e0b21d879beece4172d54cb6424c7537555"
+    },
+    {
+      "path": "optical_flow/setup_fa_log_rate_trial.m",
+      "bytes": 3289,
+      "sha256": "43facb9f17b674660bcfd46aedd3d82323470ced78cc29a6057b75efd87c345e"
+    },
+    {
+      "path": "optical_flow/setup_fa_timing_diagnostics.m",
+      "bytes": 3011,
+      "sha256": "7fcb1d09e9eadb3bc1a33b3d0d40a9f07b470bf13a604d852c978e1741eb0c53"
+    },
+    {
+      "path": "optical_flow/setup_fa_timing_trial.m",
+      "bytes": 2265,
+      "sha256": "a573ff60b88e88a09e195f1a8efdbef44175af20110cfd937958bb0601a6985d"
+    },
+    {
+      "path": "optical_flow/setup_fa_video_trial.m",
+      "bytes": 1985,
+      "sha256": "271079e8a8d448c537782343041264c3f66ce369b68825e0770de159d8ccc645"
+    },
+    {
+      "path": "optical_flow/setup_flow_assist.m",
+      "bytes": 12282,
+      "sha256": "f2c0b67a2e9e5814cb609a42d68a58f9b56b39f4577c7fc287acb7d4f5394963"
+    },
+    {
+      "path": "optical_flow/setup_sb_flow_assist.m",
+      "bytes": 7010,
+      "sha256": "7a2c50f1fd636fa8b3e4d2121f5991bd513bcfa2e80d1457d84766d7ce0dd056"
+    },
+    {
+      "path": "optical_flow/test_fa_native.py",
+      "bytes": 13409,
+      "sha256": "c4dcaf1686e72de3577f16b99e4a8e58cd915a341496766746cc41f0cb31209a"
+    },
+    {
+      "path": "optical_flow/test_flow_assist.m",
+      "bytes": 1415,
+      "sha256": "1f358b7c043cf41ae66d81d2f774bd39da410032280d895602905398ea282769"
+    },
+    {
+      "path": "optical_flow/test_qdrone_of.m",
+      "bytes": 1233,
+      "sha256": "d3249c55dd4054e61236598b6682c1cc7bee5f3c5ae655e60246621644d8d1ea"
+    },
+    {
+      "path": "optical_flow/test_sb_mode.m",
+      "bytes": 709,
+      "sha256": "17e88dfcb1d4af8bb0b315a6ae098ab679794b2c16e8364e6fae294ce463e3fa"
+    },
+    {
+      "path": "optical_flow/test_sb_native.py",
+      "bytes": 3280,
+      "sha256": "9def651bc11c51a680d9523fba90e2d000f687382e93b313412367e1060578de"
+    },
+    {
+      "path": "optical_flow/tune_fa_timing.py",
+      "bytes": 5634,
+      "sha256": "2cb357961e2dee7db191af483a1a7ae02bd740e99c57d27dac7cecd45264bd18"
+    },
+    {
+      "path": "optical_flow/verify_fa_shadow_log.m",
+      "bytes": 2996,
+      "sha256": "8b25cb6a3d0e12ab035fd7cd2ab106489049ab421507db5c83185d4b698223fc"
+    },
+    {
+      "path": "optical_flow/verify_fa_timing_ground.m",
+      "bytes": 3690,
+      "sha256": "1478a71cbf84782fedf1e6c90f66d084db45f92a6fb1613ce16c4a9412c388f0"
+    },
+    {
+      "path": "pid_diagnostics/analyze_pid_diagnostics.m",
+      "bytes": 2327,
+      "sha256": "ef64d2705c47ef50259d63a92c90239c2c833f4be011f465d8e959ad170e4a7c"
+    },
+    {
+      "path": "pid_diagnostics/analyze_qgc_yaw.py",
+      "bytes": 5446,
+      "sha256": "f04ac24145767199de37cb49da34738943fd602d17a3d5fb95bca5fa02a0e036"
+    },
+    {
+      "path": "pid_diagnostics/analyze_roll_motor_bias.py",
+      "bytes": 3138,
+      "sha256": "ebe579cca9c0bb2f8a01cd4cf8d5e7c4e4148c3a1bde1c2888560a70445576df"
+    },
+    {
+      "path": "pid_diagnostics/AUTO_GYROCAL_VI.md",
+      "bytes": 4259,
+      "sha256": "c63af5933cea40199eb04bda6ae4fb3a4f4ec0789836223708bf44f7e9388513"
+    },
+    {
+      "path": "pid_diagnostics/AUTOCAL_RESULT_140623.md",
+      "bytes": 844,
+      "sha256": "79f52840ad7eaf67f6c5ddfbc6895383d5f4f3dbea6531655b63427eb96e74c7"
+    },
+    {
+      "path": "pid_diagnostics/AUTOCAL_RESULT_141518.md",
+      "bytes": 1539,
+      "sha256": "44bda2355a0a2291945fea9e6ceabf28f8f1bbb3c233eef86f0c212d4b26bd3b"
+    },
+    {
+      "path": "pid_diagnostics/build_diagnostic_copy.cjs",
+      "bytes": 7289,
+      "sha256": "0be8cd553dc6b1548cf3ffc90cc078582a223ba062d434b07719fb31e5dfc6d3"
+    },
+    {
+      "path": "pid_diagnostics/build_ry_native.cmd",
+      "bytes": 667,
+      "sha256": "07a622caf5b960b2004039216bf2d82b30df2d906dd40c49160be2e1158e4627"
+    },
+    {
+      "path": "pid_diagnostics/check_gyro_bias.m",
+      "bytes": 238,
+      "sha256": "621fe150cd4b415f616c0cbf74f2d9b1d25f4eba03e397dd1f7901eac9687a3a"
+    },
+    {
+      "path": "pid_diagnostics/check_pid_diagnostics.m",
+      "bytes": 3277,
+      "sha256": "ed67c2513a5f9f610d21da5f58703c9feffdcca173a3cd458fea696b41fe1166"
+    },
+    {
+      "path": "pid_diagnostics/check_yaw_only_fa.m",
+      "bytes": 1484,
+      "sha256": "1ac31a055f6bd5c484ec7d62a2a6d7df9fb5bf896936811bbfe82eaa74d4d6d3"
+    },
+    {
+      "path": "pid_diagnostics/GYRO_BIAS_VI.md",
+      "bytes": 2705,
+      "sha256": "e0ddcec955d34186bee9bd11b5790bbfd652e509782ee7bd6cc828e94e64c16b"
+    },
+    {
+      "path": "pid_diagnostics/LOG_RESULT_133832.md",
+      "bytes": 1460,
+      "sha256": "0b67b1d073bc2d476dc94e6832b7d9bf06d36b1033e34e02b5ac97e2725f3558"
+    },
+    {
+      "path": "pid_diagnostics/qdrone_gyrocal_step.m",
+      "bytes": 1224,
+      "sha256": "5f4fcfb27133acb1b3febc183fca4359d64ad955d7e50180f0b694893e4f2c2e"
+    },
+    {
+      "path": "pid_diagnostics/qdrone_roll_i_step.m",
+      "bytes": 896,
+      "sha256": "e49f31fd33be3c53f2d4bb83b0669e8d441bda84710e71273e55f35642f1b7dc"
+    },
+    {
+      "path": "pid_diagnostics/qdrone_ry_aw_step.m",
+      "bytes": 451,
+      "sha256": "684e5fa178fc9717bb882f757f78a9cf5f8709f7c0ef1b730e0d1d7dd727fdec"
+    },
+    {
+      "path": "pid_diagnostics/qdrone_ry_pi_core.c",
+      "bytes": 3908,
+      "sha256": "ded93ac78d3be140b2352a2f9d2ebdd67f1d8e5f466019afeac92f26a2f13c1c"
+    },
+    {
+      "path": "pid_diagnostics/qdrone_ry_pi_core.h",
+      "bytes": 820,
+      "sha256": "7c93010092a55fd24414fe6b8c29f2c7c707730e5901b58b90d9382887f3f79e"
+    },
+    {
+      "path": "pid_diagnostics/qdrone_ry_pi_mex.c",
+      "bytes": 1108,
+      "sha256": "363fdf4b7687af2a92375634404e7b129d201a778e7200419a28c9529e4b0ff1"
+    },
+    {
+      "path": "pid_diagnostics/qdrone_ry_pi_step.m",
+      "bytes": 743,
+      "sha256": "9010477ddd7738af676f794c3f5f5cffcf4f1bdb60e313f91215b7b55555c507"
+    },
+    {
+      "path": "pid_diagnostics/qdrone_yaw_i_step.m",
+      "bytes": 1117,
+      "sha256": "a0d8792b1d611474f3e1cb6498c90a633573cabef0c205ec8380b0646d8b75d3"
+    },
+    {
+      "path": "pid_diagnostics/QDroneRYPIBuildable.m",
+      "bytes": 1568,
+      "sha256": "b9257011973f5afd8d9e7c4f44b9b6e5d751d970cdcf6d965079e2f3cb4a2e8f"
+    },
+    {
+      "path": "pid_diagnostics/README_VI.md",
+      "bytes": 5871,
+      "sha256": "57cb6332150575792305ec56d2c769fd92d46fb5defb63674807149c8a35c2d6"
+    },
+    {
+      "path": "pid_diagnostics/replay_roll_yaw_controller.py",
+      "bytes": 5301,
+      "sha256": "11ca619a8325068308019a8bc1687c2f823b582bc5f7687f17495053323daded"
+    },
+    {
+      "path": "pid_diagnostics/ROLL_I_TRIAL_VI.md",
+      "bytes": 4173,
+      "sha256": "592818e3e9c6e2a271a2f14b45dc87abc76a41f8136531f4c681ca8cdccb4e8f"
+    },
+    {
+      "path": "pid_diagnostics/ROLL_MOTOR_BIAS_VI.md",
+      "bytes": 5923,
+      "sha256": "8f30374027e4fa351f70d02e6d6e4147e274c937db124dd2034a54167f39ef13"
+    },
+    {
+      "path": "pid_diagnostics/ROLL_YAW_PI_VI.md",
+      "bytes": 11786,
+      "sha256": "5df4fc608b308f1caef3a6f5d4beca109c9353b2492097c2b553838050c6595b"
+    },
+    {
+      "path": "pid_diagnostics/setup_auto_gyro_calibration.m",
+      "bytes": 6927,
+      "sha256": "f7f2ca0bcef1e89dad2b37381e1eca898df024e54ac1f3ad22b672ef11994fa8"
+    },
+    {
+      "path": "pid_diagnostics/setup_mission_estop_displays.m",
+      "bytes": 1521,
+      "sha256": "5cf6090de70741f80492a8267ebe837badbe99a0bdd9c1259e180f7cc2017040"
+    },
+    {
+      "path": "pid_diagnostics/setup_roll_integral_trial.m",
+      "bytes": 7972,
+      "sha256": "736da7c4b91d31a735d366ccd09ad6fa882a0c26d0b859af37c794baadc02950"
+    },
+    {
+      "path": "pid_diagnostics/setup_roll_yaw_controller.m",
+      "bytes": 12882,
+      "sha256": "b6ef87a83152b13d25de8a549be939588d90d7f46b2709618b9f731b57fae6f2"
+    },
+    {
+      "path": "pid_diagnostics/setup_yaw_integral_trial.m",
+      "bytes": 8583,
+      "sha256": "fb51222838d0ac40d4a86c62b85bd2f69d6c7afbc93a11a7ab40990ac72c3f0b"
+    },
+    {
+      "path": "pid_diagnostics/test_gyrocal.m",
+      "bytes": 1385,
+      "sha256": "eac13c763a51f5c6a23d906c02f5c8205ec35b93014912d8c24a3b2b8c42b222"
+    },
+    {
+      "path": "pid_diagnostics/test_roll_i.m",
+      "bytes": 1287,
+      "sha256": "afd60f1ff2865d0bda1663b8fe3941549f1a016fc0244b26353a4ffaf41f79bd"
+    },
+    {
+      "path": "pid_diagnostics/test_roll_yaw_controller.m",
+      "bytes": 1684,
+      "sha256": "0688e18a0934503b697acf7ef8b7fa436b1db08b0741534af3560467c3770981"
+    },
+    {
+      "path": "pid_diagnostics/test_ry_native.py",
+      "bytes": 6335,
+      "sha256": "69e442e64a42fd15b2d3cf4860c7a1b7dffb4570ea5b59cf975baa8582ba8b02"
+    },
+    {
+      "path": "pid_diagnostics/test_yaw_i.m",
+      "bytes": 2013,
+      "sha256": "991ab902f9846781f411d64537c9d69dab1e4f9831dcfcf96c3c4da8b9ccbf6a"
+    },
+    {
+      "path": "pid_diagnostics/YAW_I_TRIAL_VI.md",
+      "bytes": 6416,
+      "sha256": "4f956fa81f9311fa0de54957e92cb11b9e99e6810edb472b0795f64557e0d0fc"
+    },
+    {
+      "path": "pid_diagnostics/YAW_RESULT_160348.md",
+      "bytes": 4296,
+      "sha256": "2c63d717475c4853b0627c3d77d54c8f1769a12284f71ce1be811f7dcca00e45"
+    },
+    {
+      "path": "pid_diagnostics/YAW_ROLL_RESULT_162950.md",
+      "bytes": 4536,
+      "sha256": "d81578cc998732c09804e4ae4dbfa56fab8c77641ec2467e5c7dea1ff3772907"
+    },
+    {
+      "path": "qdrone_baro_height_kalman.m",
+      "bytes": 1498,
+      "sha256": "7b38d23cf486326f0ee1048dd4c5fc8af4fc6da19f0420e62cf44e69a422640a"
+    },
+    {
+      "path": "qdrone_baro_height_kalman_smooth.m",
+      "bytes": 1645,
+      "sha256": "3d710d3b0cab6f62c18b1a5f1e626275cf506ae00cfecae9c8d2558e9058de9a"
+    },
+    {
+      "path": "QDrone_Capture.slx",
+      "bytes": 45345,
+      "sha256": "8bef2bf53f8c554fd2bade5998f44f818499ccfb1a5214b32c13c0def5d642b2"
+    },
+    {
+      "path": "QDrone_Capture_IMU.slx",
+      "bytes": 43239,
+      "sha256": "6e89625988ff69954af0282d3a6fac6988853d7f6b896d710d31736a086aa5d8"
+    },
+    {
+      "path": "qdrone_height_lp_hp_step.m",
+      "bytes": 1465,
+      "sha256": "1403f38540b9501102e2d02b515f19f1dc4e7acccf135dc529c6d4b3214b4dae"
+    },
+    {
+      "path": "qgc_bridge/flight_flow_schema.json",
+      "bytes": 7645,
+      "sha256": "1e56debcb4d30293331fedea8c5ff2e04ee63544e7b42fc9131b41ee7b9bfd36"
+    },
+    {
+      "path": "qgc_bridge/flight_schema.json",
+      "bytes": 6823,
+      "sha256": "38fd930db2268527ed9009c7814f22d1e4c9c2e0c2f84dc89a035256a68ee755"
+    },
+    {
+      "path": "qgc_bridge/FULL_TELEMETRY_VI.md",
+      "bytes": 10765,
+      "sha256": "71c6b00bfb11e5815f5b0c46cdd333cb1d5aa66714ac607dc9bd661a72bdf64f"
+    },
+    {
+      "path": "qgc_bridge/HUONG_DAN.md",
+      "bytes": 7537,
+      "sha256": "45c584967ecc791d4c3c13281e6f4820f65028cf90ad89460c6c93878da11559"
+    },
+    {
+      "path": "qgc_bridge/inspect_qdrone_optical_flow.m",
+      "bytes": 3549,
+      "sha256": "33689701fcf926aca37c4d9e97e0a3f03a83864ad7952d18c84e4e801e4dbd51"
+    },
+    {
+      "path": "qgc_bridge/OPTICAL_FLOW_SETUP_VI.md",
+      "bytes": 4270,
+      "sha256": "ab6f439c949cd7039effd10f91334cc6cbbb0079f3f84bd4d461511785bc67e2"
+    },
+    {
+      "path": "qgc_bridge/qdrone_to_qgc.py",
+      "bytes": 7645,
+      "sha256": "16d2013d311b167f5fb7b39d40cc40f0a2fba5419bc14c291b24c4129f651b57"
+    },
+    {
+      "path": "qgc_bridge/requirements.txt",
+      "bytes": 21,
+      "sha256": "1eb026c3b7792ce3008baf6ae1291e313db1cbd943bcd28c5c3f7adfa0e49152"
+    },
+    {
+      "path": "qgc_bridge/setup_qgc_optical_flow.m",
+      "bytes": 5391,
+      "sha256": "4d483c384b5814ad7fdd0071eb6b2d2cafe4730f84b7e7e478f66817c5c547fb"
+    },
+    {
+      "path": "qgc_bridge/setup_qgc_telemetry.m",
+      "bytes": 8027,
+      "sha256": "641bccbf94cad1a17dc7227a5cb09fd067ccdb6258fdb052e7c24410025c494d"
+    },
+    {
+      "path": "qgc_bridge/telemetry.py",
+      "bytes": 9663,
+      "sha256": "d06fb796ae81e2548d4df390219a9c51f35d31203c2abc9979cb45083ceb9e01"
+    },
+    {
+      "path": "qgc_bridge/test_loopback.py",
+      "bytes": 5108,
+      "sha256": "ca6d924b75feaa4323ee4f6870007210f4cae23db5810da5d3d1c6e0767c20a2"
+    },
+    {
+      "path": "qgc_bridge/test_mavlink.py",
+      "bytes": 7649,
+      "sha256": "dbd0fbc15e4d4b9de7da9a70e1e6a0788bafdd93437b6ed1189f520fb1698e4d"
+    },
+    {
+      "path": "qgc_bridge/test_telemetry.py",
+      "bytes": 2051,
+      "sha256": "aba4a5b6fa001cf27073d768efbd48fd98cd93c61b55484768516bcd3e2f2ca9"
+    },
+    {
+      "path": "Read_IMU_Height_Kalman_LP_HP_Raw.slx",
+      "bytes": 46877,
+      "sha256": "895d27f75e0cb7f2f9fae6a45f022d138f2de4f254cf6a5f4d7167591e72ca1b"
+    },
+    {
+      "path": "Read_IMU_Height_Kalman_LP_HP_Raw_HUONG_DAN.md",
+      "bytes": 1537,
+      "sha256": "bfdb667f0737a8cea8ccd7d3055c3763abcc16f3efe093545e48866374da2901"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8180,
+      "sha256": "5afd28e5e49a691360817faebe878cb3df963eb3f759f85b28c52c17cf9c156c"
+    },
+    {
+      "path": "README_CURRENT.md",
+      "bytes": 2961,
+      "sha256": "bdb7060622afb2754e6264936b46e443adac1287e4e1c89c03d463803e8dc091"
+    },
+    {
+      "path": "restore_source_model.m",
+      "bytes": 806,
+      "sha256": "511097de8b67dfb584c4742f7219bbeead7c6a20ccb8a2e4998e3dd20af671c1"
+    },
+    {
+      "path": "run_offline_tests.m",
+      "bytes": 520,
+      "sha256": "3fd59f5cbf721a25c8cf1e5b66784551c1bc354a3398c0af8d47352209cdbabb"
+    },
+    {
+      "path": "scripts/native_env.cmd",
+      "bytes": 595,
+      "sha256": "1eeadc40f9ff9786be5eeaae5939e3a7967eebb5e40658d7974280d522091753"
+    },
+    {
+      "path": "setup_project.m",
+      "bytes": 319,
+      "sha256": "51e77e92885c10565efa954a7a5438b8174bb1d5a679e0f94f25cbad54deb8d5"
+    },
+    {
+      "path": "source_models/Read_IMU_Height.slx",
+      "bytes": 44182,
+      "sha256": "cd54627d696bd3720827444e53127541b5eca0dedd04ce66f6b228001b5bb1fc"
+    },
+    {
+      "path": "source_models/Read_IMU_Height_Kalman.slx",
+      "bytes": 45852,
+      "sha256": "94d9da47769d93037828c021a85be58979fedeab2dcf5a6fd6bbeea2f21bbe25"
+    },
+    {
+      "path": "source_models/Read_IMU_Height_Kalman_Fixed.slx",
+      "bytes": 45694,
+      "sha256": "5daea88dfc84ce0964f578a31761d43fe3a2c50afda771bd194a3770e247058a"
+    },
+    {
+      "path": "source_models/Read_IMU_Height_Kalman_LP_HP.slx",
+      "bytes": 46840,
+      "sha256": "72ed9f4a0209d4e28fbeae977621088250c5a6f4a1c0b9a94ce598f17804c45b"
+    },
+    {
+      "path": "source_models/Read_IMU_Height_Kalman_Smooth.slx",
+      "bytes": 45780,
+      "sha256": "5144ddec237c3bc9eb48aeafdf2f38d2383f699d1c0ef0dd2c94deee76496e99"
+    },
+    {
+      "path": "source_models/Stabilizer_QDrone.mdl",
+      "bytes": 326495,
+      "sha256": "da49c1232ceb62ac6b954e1d0782148555018d4235d0a96fbd065392d639e462"
+    },
+    {
+      "path": "source_models/Stabilizer_QDrone_048377.mdl",
+      "bytes": 326739,
+      "sha256": "8bdfa21b55b53f0bbbaa67840e239ea6ec57c4ff154f8979f120a2bb3be4215f"
+    },
+    {
+      "path": "source_models/Stabilizer_QDrone_048378_AutoCal.mdl",
+      "bytes": 352281,
+      "sha256": "570d41c890b7bf9c81b4e36ab3e788ff4b39fd16706159df1c2a89e97fa2936b"
+    },
+    {
+      "path": "source_models/Stabilizer_QDrone_048378_GyroCal.mdl",
+      "bytes": 333741,
+      "sha256": "245cbd3a411b6d4a3a97c29a5b5397ea026bf5b1fc3695924c5c4c460f4c7bc9"
+    },
+    {
+      "path": "source_models/Stabilizer_QDrone_048378_OF.slx",
+      "bytes": 71993,
+      "sha256": "79dccf78bf84d6ae2736f647186ca3e140da7e638ecfc1d1622712b5dd230129"
+    },
+    {
+      "path": "source_models/Stabilizer_QDrone_048378_OF_Ready.slx",
+      "bytes": 72737,
+      "sha256": "4fc70980f36d766c95a0c124d005c6a2769d47d16e7b1c6386bc5a5a07f68da5"
+    },
+    {
+      "path": "source_models/Stabilizer_QDrone_048378_PID_Diag.mdl",
+      "bytes": 335171,
+      "sha256": "5d2cf1a78e6627f912caac61c71c3c462e7d445fa1c1d6f5199f3e91f5539fc4"
+    },
+    {
+      "path": "source_models/Stabilizer_QDrone_048378_RollI.mdl",
+      "bytes": 384413,
+      "sha256": "dfe6696527ec09ff62b163006a78d9b28d52549fd17e3aef9b6ecb5984483c8f"
+    },
+    {
+      "path": "source_models/Stabilizer_QDrone_QGC.mdl",
+      "bytes": 365608,
+      "sha256": "d9603eee0466f4828e04a84592aed504de44169e3655074d231de4b11d8f041f"
+    },
+    {
+      "path": "source_models/Stabilizer_QDrone_QGC_OF.mdl",
+      "bytes": 400723,
+      "sha256": "6d6484362a9528398f6d344c9218da534b593f5ded6e2e34065bfc9dae4cf38e"
+    },
+    {
+      "path": "source_models/Stabilizer_QDrone_QGC_OF_RYPI.mdl",
+      "bytes": 440441,
+      "sha256": "201a25046856638e45c5a10da4dfc1550b379faf05305013aa7fd44354395710"
+    },
+    {
+      "path": "source_models/Stabilizer_QDrone_QGC_OF_YawI.mdl",
+      "bytes": 438600,
+      "sha256": "bf10ad16f4e82e1b6365c97d735cd717708d7e859a0c8728fe0911330d14487b"
+    },
+    {
+      "path": "SOURCE_MODELS.md",
+      "bytes": 522,
+      "sha256": "5d3af601532068be41cf6149e430f91334bc4f12639a3676e6a43687a33e595f"
+    },
+    {
+      "path": "Stabilizer_QDrone_048378.mdl",
+      "bytes": 326897,
+      "sha256": "91767f57a2a9c4faeb011e947c9c8dc65d05505002ac91822df982ce600d063c"
+    },
+    {
+      "path": "Stabilizer_QDrone_QGC_OF_RYPI_FA.mdl",
+      "bytes": 456543,
+      "sha256": "43c13ea95388fea5844ff932b80bb5fe2389c93ba6710864450016f210e1a595"
+    },
+    {
+      "path": "test_baro_height_kalman.m",
+      "bytes": 2363,
+      "sha256": "7a72a45b57eb4fdf20ea9059d4217f0987092a793f2885705a800fe2fbcc19fe"
+    },
+    {
+      "path": "test_height_lp_hp.m",
+      "bytes": 1416,
+      "sha256": "d7e35620c0c4320da09a5af982651cc515e893a4086d8f20e7829285682714c6"
+    }
+  ]
+}
