@@ -82,25 +82,6 @@ Bridge đọc TCP `192.168.2.52:18910` và gửi MAVLink UDP tới `127.0.0.1:14
 ./qgc_bridge/.venv/Scripts/python.exe -m unittest discover -s qgc_bridge -p 'test_*.py' -v
 ```
 
-## Đóng gói và đưa lên GitHub
+## Ghi chú bản quyền
 
-Thư mục làm việc gốc chứa cả log và nhiều build cũ. Để tạo bản nguồn riêng (không ghi đè model đang dùng):
-
-```powershell
-python scripts/package_source.py
-```
-
-Kết quả: `release/QDrone_Control/` và `release/QDrone_Control-source.zip`. Bản xuất có callback đường dẫn tương đối cho các model `.mdl` gốc, script build có thể cấu hình và model trung gian ở `source_models/`. Chỉ xuất vào đích chưa tồn tại để tránh ghi đè chỉnh sửa. `SOURCE_MANIFEST.json` ghi SHA256 các tệp tại lúc xuất; build/test sau đó sinh tệp cục bộ đã được `.gitignore` loại trừ.
-
-Nếu đã cài Git và GitHub CLI, đăng nhập tài khoản `supsenpaii` rồi chạy trong **bản xuất**:
-
-```powershell
-cd release/QDrone_Control
-gh auth login
-git init -b main
-git add .
-git commit -m "Add Quanser QDrone control source and setup guide"
-gh repo create supsenpaii/QDrone_Control --private --source . --remote origin --push
-```
-
-Thay `--private` bằng `--public` nếu muốn công khai. Nếu repository đã tồn tại, kiểm tra nội dung và kết nối remote hiện có trước; không dùng force push. Các model gốc/thư viện Quanser giữ quyền của chủ sở hữu tương ứng; bộ mã chưa bổ sung giấy phép phân phối mới.
+Các model gốc/thư viện Quanser giữ quyền của chủ sở hữu tương ứng; bộ mã chưa bổ sung giấy phép phân phối mới.
